@@ -13,7 +13,14 @@
   width: 100vh;
   height: 48px;
   display: flex;
+  justify-content: space-between;
 }
-.logo {
-  margin-right: auto;
+.menubar {
+  border: 1px solid black;
+  display: flex;
+}
+.navbar_hero {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
