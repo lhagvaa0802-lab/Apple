@@ -19,6 +19,9 @@
   justify-content: space-between;
   background-color: #f5f5f7cc;
 }
+.container{
+  display: none;
+}
 .menubar {
   /* border: 1px solid black; */
   display: flex;
@@ -33,8 +36,12 @@
   background-color: #ffffff;
   font-family: "Inter";
   font-size: 14px;
-}
 
+}
+.navbar_hero p{
+  padding-left: 31px;
+  padding-right: 31px;
+}
 .menu_list {
   display: none;
 }
@@ -44,10 +51,8 @@
   width: 100%;
   height: 500px;
   background-image: url("./zurag1.jpg");
-
   background-position: center;
   background-size: cover;
-
   padding-top: 12px;
   display: flex;
   justify-content: center;
@@ -55,8 +60,7 @@
   padding-bottom: 30px;
 }
 .first_page_hero {
-  /* border: 1px solid white; */
-  /* width: 241px; */
+  width: 241px;
   height: 114px;
   display: flex;
   flex-direction: column;
@@ -78,13 +82,12 @@
   color: #f5f5f7;
 }
 .button {
-  /* border: 1px solid white; */
-  width: 207px;
-  height: 44px;
+  width: 241px;
+  height: 36px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+  gap: 12px;
 }
 
 .learn {
@@ -107,8 +110,12 @@
   font-weight: 400;
   color: #2997ff;
   background-color: transparent;
-  border: 1px solid white;
+  border: 1px solid #2997FF;
 }
+.third_page_web{
+  display: none;
+}
+
 /* mediaaaaaa */
 @media (min-width: 768px) {
   .navbar_hero {
@@ -131,8 +138,7 @@
     background-size: cover;
   }
   .first_page_hero {
-    /* border: 1px solid white; */
-    /* width: 241px; */
+    width: 405px;
     height: 156px;
   }
   .phone {
@@ -187,7 +193,7 @@
   }
   .first_page {
     width: 100%;
-    height: 650px;
+    height: 692px;
     background-image: url("./zurag1-2.jpg");
     display: flex;
     justify-content: center;
@@ -197,8 +203,7 @@
     background-size: cover;
   }
   .first_page_hero {
-    /* border: 1px solid white; */
-    /* width: 241px; */
+    width: 405px;
     height: 172px;
   }
   .phone {
@@ -208,7 +213,6 @@
     font-size: 24px;
   }
   .button {
-    /* border: 1px solid white; */
     width: 207px;
     display: flex;
     justify-content: space-between;
@@ -227,14 +231,34 @@
   width: 100%;
   height: 500px;
   background-image: url("./zurag2.jpg");
-
   background-position: center;
   background-size: cover;
   padding-top: 40px;
-
   display: flex;
   justify-content: center;
   align-items: flex-start;
+}
+.learn1 {
+  width: 107px;
+  height: 36px;
+  border-radius: 40px;
+  background-color: #FFFFFF;
+  font-size: 14px;
+  font-family: "Inter";
+  font-weight: 400;
+  color: #000000;
+  border: none;
+}
+.buy1 {
+  width: 66px;
+  height: 36px;
+  border-radius: 40px;
+  font-size: 14px;
+  font-family: "Inter";
+  font-weight: 400;
+  color: #FFFFFF;
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
 }
 
 /* mediaaaaaa */
@@ -250,7 +274,670 @@
     background-position: center;
     background-size: cover;
   }
-  .second_page_hero {
+  .first_page_hero {
+    width: 405px;
     height: 156px;
   }
+  .phone {
+    font-size: 42px;
+  }
+  .hello {
+    font-size: 22px;
+  }
+  .button {
+   
+    width: 207px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .learn1{
+    width: 123px;
+    font-size: 16px;
+  }
+  .buy1{
+    width: 68px;
+    font-size: 16px;
+  }
 }
+@media (min-width: 1024px) {
+
+  .second_page {
+    width: 100%;
+    height: 692px;
+    background-image: url("./zurag2-2.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 55px;
+    background-position: center;
+    background-size: cover;
+  }
+  .second_page_hero {
+    width: 405px;
+    height: 172px;
+  }
+  .phone {
+    font-size: 52px;
+  }
+  .hello {
+    font-size: 24px;
+  }
+  .button {
+    width: 207px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .learn1 {
+    width: 123px;
+    font-size: 16px;
+  }
+  .buy1 {
+    width: 68px;
+    font-size: 16px;
+  }
+}
+
+/* third page  */
+
+.third_page {
+  width: 100%;
+  height: 500px;
+  background-image: url("./zurag3.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: self-start;
+  padding-top: 36px;
+  
+}
+.third_page_hero{
+  width: 390px;
+  height: 133px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.third_page_hero img{
+  width: 180px;
+  height: 42px;
+}
+.third_page_hero p{
+  font-size: 18px;
+  font-family: "Inter";
+  font-weight: 400;
+  color: #000000;
+
+}
+@media (min-width: 768px) {
+  .third_page {
+    width: 100%;
+    height: 650px;
+    background-image: url("./zurag3-1.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 58px;
+    background-position: center;
+    background-size: cover;
+  }
+  .third_page_hero{
+  width: 405px;
+  height: 139px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.third_page_hero img{
+  width: 180px;
+  height: 39px;
+}
+.third_page_hero p{
+  font-size: 22px;
+  font-family: "Inter";
+  font-weight: 400;
+  color: #000000;
+
+}
+}
+@media (min-width: 1024px) {
+  .third_page{
+    display: none;
+  }
+  .third_page_web{
+    display: block;
+    width: 100%;
+    height: 692px;
+    background-image: url("./zurag3-2.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 70px;
+    background-position: center;
+    background-size: cover;
+  }
+  .third_page_hero_web{
+    /* border: 1px solid black; */
+    width: 405px;
+    height: 164px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  .gift{
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 52px;
+    font-style: bold;
+ }
+ .wish{
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 24px;
+ }
+ 
+ .shop{
+  width: 114px;
+  height: 44px;
+  border-radius: 40px;
+  background-color: #0071E3;
+  color:#FFFFFF;
+  border: none;
+  font-size: 16px;
+  font-family: "Inter";
+  font-weight: 400;
+  
+
+
+ }
+} 
+.big_container{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+/* fourth page */
+.fourth_page{
+   width: 100%;
+  height: 500px;
+  background-image: url("./zurag4.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-top: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 50px;
+}
+.fourth_page_hero{
+  width: 241px;
+  height: 147px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.fourth_page_hero_words p{
+  font-size: 18px;
+  font-family: "Inter";
+  font-weight: 400;
+  color: #f5f5f7;
+  display: flex;
+  text-align: center;
+  justify-content: center
+  ;
+
+}
+
+/* fifth page */
+.fifth_page{
+  width: 100%;
+  height: 500px;
+  background-image: url("./zurag5.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-top: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 46px;
+
+}
+.fifth_page_hero{
+  width: 235px;
+  height: 135px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.watch{
+  width: 152px;
+  height: 34px;
+  display: flex;
+  gap: 10px;
+}
+.watch img{
+  width: 22px;
+  height: 27px;
+}
+.watch p {
+  font-size: 28px;
+  font-family: "Inter";
+  font-weight: 700;
+  font-style: bold;
+  color:#000000;
+}
+.series{
+  font-size: 13px;
+  font-family: "Inter";
+  font-weight: 700;
+  color:#000000;
+  font-style: bold;
+}
+.classic{
+  font-size: 18px;
+  font-family: "Inter";
+  font-weight: 400;
+  color:#000000;
+}
+/* sixth page */
+
+.sixth_page{
+  width: 100%;
+  height: 500px;
+  background-image: url("./zurag6.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-top: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 46px;
+
+}
+.sixth_page_hero{
+  width: 257px;
+  height: 115px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.mac{
+  font-size: 30px;
+  font-family: "Inter";
+  font-weight: 700;
+  font-style: bold;
+  color:#1D1D1F;
+}
+.m3{
+  font-size: 18px;
+  font-family: "Inter";
+  font-weight: 400;
+  color:#1D1D1F;
+}
+/* seventh page */
+.seventh_page{
+  width: 100%;
+  height: 500px;
+  background-image: url("./zurag7.png");
+  background-position: center;
+  background-size: cover;
+  padding-top: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 46px;
+}
+.seventh_page_hero{
+  width: 257px;
+  height: 168px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+}
+.apple_for {
+  font-size: 30px;
+  font-family: "Inter";
+  font-weight: 700;
+  font-style: bold;
+  color: #1D1D1F;
+}
+.software{
+  font-size: 18px;
+  font-family: "Inter";
+  font-weight: 400;
+  color:#1D1D1F;
+}
+.business_button{
+  height: 36px;
+  width: 150px;
+  border-radius: 40px;
+  background-color: #0071E3;
+  color: #FFFFFF;
+  border: none;
+  margin-top: 10px;
+ 
+}
+/* eight page */
+.eight_page{
+  width: 100%;
+  height: 500px;
+  background-image: url("./zurag8.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-top: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 50px;
+}
+.eight_page_hero{
+  width: 314px;
+  height: 152px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.deal{
+  font-size: 30px;
+  font-family: "Inter";
+  font-weight: 700;
+  font-style: bold;
+  color: #1D1D1F;
+}
+.credit{
+  font-size: 18px;
+  font-family: "Inter";
+  font-weight: 400;
+  color:#1D1D1F;
+}
+.deal_button{
+ height: 36px;
+  width: 126px;
+  border-radius: 40px;
+  background-color: #0071E3;
+  color: #FFFFFF;
+  border: none;
+}
+
+/* ninth page */
+.ninth_page{
+  width: 100%;
+  height: 500px;
+  background-image: url("./zurag9.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-top: 12px;
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+  padding-top: 51px;
+}
+.ninth_page_hero{
+  width: 285px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.trade{
+  width: 152px;
+  height: 34px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+ 
+
+}
+.trade img{
+  width: 22px;
+  height: 27px;
+}
+.trade p {
+  font-size: 28px;
+  font-family: "Inter";
+  font-weight: 700;
+  font-style: bold;
+  color:#000000;
+}
+.trade_word{
+  font-size: 18px;
+  font-family: "Inter";
+  font-weight: 400;
+  color:#1D1D1F;
+  display: flex ;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.estimation_button{
+  height: 36px;
+  width: 150px;
+  border-radius: 40px;
+  background-color: #0071E3;
+  color: #FFFFFF;
+  border: none;
+}
+@media (min-width: 768px){
+  .container{
+    display: none;
+   }
+   .big_container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+   }
+   
+}
+.tenth_page {
+  width: 100%;
+  height: 580px;
+  background-image: url("./zurag10.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: self-start;
+  padding-top: 36px;
+  
+}
+.tenth_page_hero{
+  width: 390px;
+  height: 133px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+ 
+
+}
+.tenth_page_hero img{
+  width: 180px;
+  height: 42px;
+}
+.tenth_page_hero p{
+  font-size: 18px;
+  font-family: "Inter";
+  font-weight: 400;
+  color: #000000;
+
+}
+.eleventh_page {
+  width: 100%;
+  height: 580px;
+  background-image: url("./zurag11.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 50px;
+  
+}
+.eleventh_page_hero{
+  width: 380px;
+  height: 147px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.eleventh_page_hero_words p{
+  font-size: 18px;
+  font-family: "Inter";
+  font-weight: 400;
+  color: #f5f5f7;
+  font-style: bold;
+  display: flex;
+  text-align: center;
+  justify-content: center
+  ;
+}
+.twelfth_page{
+  width: 100%;
+  height: 580px;
+  background-image: url("./zurag12.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-top: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 58px;
+
+}
+.twelfth_page_hero{
+  width: 235px;
+  height: 135px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.thirteeth_page{
+  width: 100%;
+  height: 580px;
+  background-image: url("./zurag13.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-top: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 46px;
+
+}
+.thirteeth_page_hero{
+  width: 257px;
+  height: 115px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.fortheen_page{
+  width: 100%;
+  height: 580px;
+  background-image: url("./zurag14.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-top: 12px;
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+  padding-top: 51px;
+}
+.fortheen_page_hero{
+  width: 285px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.fiftheen_page{
+  width: 100%;
+  height: 580px;
+  background-image: url("./zurag15.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-top: 12px;
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+  padding-top: 51px;
+}
+.fiftheen_page_hero{
+  width: 285px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cash_button{
+  height: 36px;
+  width: 246px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.cash_button1{
+  height: 36px;
+  width: 114px;
+  border-radius: 40px;
+  background-color: #0071E3;
+  color:#FFFFFF;
+  border: none;
+  font-size: 16px;
+  font-family: "Inter";
+  font-weight: 400;
+}
+.cash_button2{
+  height: 36px;
+  width: 114px;
+  border-radius: 40px;
+  background-color: transparent;
+  color:#0071E3;
+  border: 1px solid #0071E3;
+  font-size: 16px;
+  font-family: "Inter";
+  font-weight: 400;
+}
+.web_container{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+@media (min-width: 1024px){
+  .big_container{
+    display: none;
+  }
+  .container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
+   }
+}
+
+
