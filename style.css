@@ -19,7 +19,7 @@
   justify-content: space-between;
   background-color: #f5f5f7cc;
 }
-.container{
+.container {
   display: none;
 }
 .menubar {
@@ -36,9 +36,8 @@
   background-color: #ffffff;
   font-family: "Inter";
   font-size: 14px;
-
 }
-.navbar_hero p{
+.navbar_hero p {
   padding-left: 31px;
   padding-right: 31px;
 }
@@ -50,7 +49,7 @@
 .first_page {
   width: 100%;
   height: 500px;
-  background-image: url("./zurag1.jpg");
+  background-image: url("./images/zurag1.jpg");
   background-position: center;
   background-size: cover;
   padding-top: 12px;
@@ -110,9 +109,9 @@
   font-weight: 400;
   color: #2997ff;
   background-color: transparent;
-  border: 1px solid #2997FF;
+  border: 1px solid #2997ff;
 }
-.third_page_web{
+.third_page_web {
   display: none;
 }
 
@@ -129,7 +128,7 @@
   .first_page {
     width: 100%;
     height: 650px;
-    background-image: url("./zurag1-1.jpg");
+    background-image: url("./images/zurag1-1.jpg");
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -194,7 +193,7 @@
   .first_page {
     width: 100%;
     height: 692px;
-    background-image: url("./zurag1-2.jpg");
+    background-image: url("./images/zurag1-2.jpg");
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -230,7 +229,7 @@
 .second_page {
   width: 100%;
   height: 500px;
-  background-image: url("./zurag2.jpg");
+  background-image: url("./images/zurag2.jpg");
   background-position: center;
   background-size: cover;
   padding-top: 40px;
@@ -242,7 +241,7 @@
   width: 107px;
   height: 36px;
   border-radius: 40px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   font-size: 14px;
   font-family: "Inter";
   font-weight: 400;
@@ -256,9 +255,9 @@
   font-size: 14px;
   font-family: "Inter";
   font-weight: 400;
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: transparent;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
 }
 
 /* mediaaaaaa */
@@ -266,7 +265,7 @@
   .second_page {
     width: 100%;
     height: 650px;
-    background-image: url("./zurag2-1.jpg");
+    background-image: url("./images/zurag2-1.jpg");
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -285,27 +284,25 @@
     font-size: 22px;
   }
   .button {
-   
     width: 207px;
     height: 44px;
     display: flex;
     justify-content: space-between;
   }
-  .learn1{
+  .learn1 {
     width: 123px;
     font-size: 16px;
   }
-  .buy1{
+  .buy1 {
     width: 68px;
     font-size: 16px;
   }
 }
 @media (min-width: 1024px) {
-
   .second_page {
     width: 100%;
     height: 692px;
-    background-image: url("./zurag2-2.jpg");
+    background-image: url("./images/zurag2-2.jpg");
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -343,40 +340,37 @@
 .third_page {
   width: 100%;
   height: 500px;
-  background-image: url("./zurag3.jpg");
+  background-image: url("./images/zurag3.jpg");
   background-position: center;
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: self-start;
   padding-top: 36px;
-  
 }
-.third_page_hero{
+.third_page_hero {
   width: 390px;
   height: 133px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-
 }
-.third_page_hero img{
+.third_page_hero img {
   width: 180px;
   height: 42px;
 }
-.third_page_hero p{
+.third_page_hero p {
   font-size: 18px;
   font-family: "Inter";
   font-weight: 400;
   color: #000000;
-
 }
 @media (min-width: 768px) {
   .third_page {
     width: 100%;
     height: 650px;
-    background-image: url("./zurag3-1.jpg");
+    background-image: url("./images/zurag3-1.jpg");
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -384,36 +378,34 @@
     background-position: center;
     background-size: cover;
   }
-  .third_page_hero{
-  width: 405px;
-  height: 139px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-
-}
-.third_page_hero img{
-  width: 180px;
-  height: 39px;
-}
-.third_page_hero p{
-  font-size: 22px;
-  font-family: "Inter";
-  font-weight: 400;
-  color: #000000;
-
-}
+  .third_page_hero {
+    width: 405px;
+    height: 139px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .third_page_hero img {
+    width: 180px;
+    height: 39px;
+  }
+  .third_page_hero p {
+    font-size: 22px;
+    font-family: "Inter";
+    font-weight: 400;
+    color: #000000;
+  }
 }
 @media (min-width: 1024px) {
-  .third_page{
+  .third_page {
     display: none;
   }
-  .third_page_web{
+  .third_page_web {
     display: block;
     width: 100%;
     height: 692px;
-    background-image: url("./zurag3-2.jpg");
+    background-image: url("./images/zurag3-2.jpg");
     display: flex;
     justify-content: center;
     align-items: end;
@@ -421,7 +413,7 @@
     background-position: center;
     background-size: cover;
   }
-  .third_page_hero_web{
+  .third_page_hero_web {
     /* border: 1px solid black; */
     width: 405px;
     height: 164px;
@@ -429,45 +421,41 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-  
   }
-  .gift{
+  .gift {
     font-family: "Inter";
     font-weight: 600;
     font-size: 52px;
     font-style: bold;
- }
- .wish{
+  }
+  .wish {
     font-family: "Inter";
     font-weight: 400;
     font-size: 24px;
- }
- 
- .shop{
-  width: 114px;
-  height: 44px;
-  border-radius: 40px;
-  background-color: #0071E3;
-  color:#FFFFFF;
-  border: none;
-  font-size: 16px;
-  font-family: "Inter";
-  font-weight: 400;
-  
+  }
 
-
- }
-} 
-.big_container{
+  .shop {
+    width: 114px;
+    height: 44px;
+    border-radius: 40px;
+    background-color: #0071e3;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    font-family: "Inter";
+    font-weight: 400;
+  }
+}
+.big_container {
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
 /* fourth page */
-.fourth_page{
-   width: 100%;
+.fourth_page {
+  width: 100%;
   height: 500px;
-  background-image: url("./zurag4.jpg");
+  background-image: url("./images/zurag4.jpg");
   background-position: center;
   background-size: cover;
   padding-top: 12px;
@@ -476,31 +464,29 @@
   align-items: end;
   padding-bottom: 50px;
 }
-.fourth_page_hero{
+.fourth_page_hero {
   width: 241px;
-  height: 147px;
+  height: 160px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
-.fourth_page_hero_words p{
+.fourth_page_hero_words p {
   font-size: 18px;
   font-family: "Inter";
   font-weight: 400;
   color: #f5f5f7;
   display: flex;
   text-align: center;
-  justify-content: center
-  ;
-
+  justify-content: center;
 }
 
 /* fifth page */
-.fifth_page{
+.fifth_page {
   width: 100%;
   height: 500px;
-  background-image: url("./zurag5.jpg");
+  background-image: url("./images/zurag5.jpg");
   background-position: center;
   background-size: cover;
   padding-top: 12px;
@@ -508,9 +494,8 @@
   justify-content: center;
   align-items: flex-start;
   padding-top: 46px;
-
 }
-.fifth_page_hero{
+.fifth_page_hero {
   width: 235px;
   height: 135px;
   display: flex;
@@ -518,13 +503,13 @@
   justify-content: space-between;
   align-items: center;
 }
-.watch{
+.watch {
   width: 152px;
   height: 34px;
   display: flex;
   gap: 10px;
 }
-.watch img{
+.watch img {
   width: 22px;
   height: 27px;
 }
@@ -533,27 +518,27 @@
   font-family: "Inter";
   font-weight: 700;
   font-style: bold;
-  color:#000000;
+  color: #000000;
 }
-.series{
+.series {
   font-size: 13px;
   font-family: "Inter";
   font-weight: 700;
-  color:#000000;
+  color: #000000;
   font-style: bold;
 }
-.classic{
+.classic {
   font-size: 18px;
   font-family: "Inter";
   font-weight: 400;
-  color:#000000;
+  color: #000000;
 }
 /* sixth page */
 
-.sixth_page{
+.sixth_page {
   width: 100%;
   height: 500px;
-  background-image: url("./zurag6.jpg");
+  background-image: url("./images/zurag6.jpg");
   background-position: center;
   background-size: cover;
   padding-top: 12px;
@@ -561,9 +546,8 @@
   justify-content: center;
   align-items: flex-start;
   padding-top: 46px;
-
 }
-.sixth_page_hero{
+.sixth_page_hero {
   width: 257px;
   height: 115px;
   display: flex;
@@ -571,24 +555,24 @@
   justify-content: space-between;
   align-items: center;
 }
-.mac{
+.mac {
   font-size: 30px;
   font-family: "Inter";
   font-weight: 700;
   font-style: bold;
-  color:#1D1D1F;
+  color: #1d1d1f;
 }
-.m3{
+.m3 {
   font-size: 18px;
   font-family: "Inter";
   font-weight: 400;
-  color:#1D1D1F;
+  color: #1d1d1f;
 }
 /* seventh page */
-.seventh_page{
+.seventh_page {
   width: 100%;
   height: 500px;
-  background-image: url("./zurag7.png");
+  background-image: url("./images/zurag7.png");
   background-position: center;
   background-size: cover;
   padding-top: 12px;
@@ -597,7 +581,7 @@
   align-items: flex-start;
   padding-top: 46px;
 }
-.seventh_page_hero{
+.seventh_page_hero {
   width: 257px;
   height: 168px;
   display: flex;
@@ -611,29 +595,28 @@
   font-family: "Inter";
   font-weight: 700;
   font-style: bold;
-  color: #1D1D1F;
+  color: #1d1d1f;
 }
-.software{
+.software {
   font-size: 18px;
   font-family: "Inter";
   font-weight: 400;
-  color:#1D1D1F;
+  color: #1d1d1f;
 }
-.business_button{
+.business_button {
   height: 36px;
   width: 150px;
   border-radius: 40px;
-  background-color: #0071E3;
-  color: #FFFFFF;
+  background-color: #0071e3;
+  color: #ffffff;
   border: none;
   margin-top: 10px;
- 
 }
 /* eight page */
-.eight_page{
+.eight_page {
   width: 100%;
   height: 500px;
-  background-image: url("./zurag8.jpg");
+  background-image: url("./images/zurag8.jpg");
   background-position: center;
   background-size: cover;
   padding-top: 12px;
@@ -642,7 +625,7 @@
   align-items: end;
   padding-bottom: 50px;
 }
-.eight_page_hero{
+.eight_page_hero {
   width: 314px;
   height: 152px;
   display: flex;
@@ -650,42 +633,42 @@
   justify-content: space-between;
   align-items: center;
 }
-.deal{
+.deal {
   font-size: 30px;
   font-family: "Inter";
   font-weight: 700;
   font-style: bold;
-  color: #1D1D1F;
+  color: #1d1d1f;
 }
-.credit{
+.credit {
   font-size: 18px;
   font-family: "Inter";
   font-weight: 400;
-  color:#1D1D1F;
+  color: #1d1d1f;
 }
-.deal_button{
- height: 36px;
+.deal_button {
+  height: 36px;
   width: 126px;
   border-radius: 40px;
-  background-color: #0071E3;
-  color: #FFFFFF;
+  background-color: #0071e3;
+  color: #ffffff;
   border: none;
 }
 
 /* ninth page */
-.ninth_page{
+.ninth_page {
   width: 100%;
   height: 500px;
-  background-image: url("./zurag9.jpg");
+  background-image: url("./images/zurag9.jpg");
   background-position: center;
   background-size: cover;
   padding-top: 12px;
   display: flex;
   justify-content: center;
-  align-items:flex-start;
+  align-items: flex-start;
   padding-top: 51px;
 }
-.ninth_page_hero{
+.ninth_page_hero {
   width: 285px;
   height: 130px;
   display: flex;
@@ -693,16 +676,14 @@
   justify-content: space-between;
   align-items: center;
 }
-.trade{
+.trade {
   width: 152px;
   height: 34px;
   display: flex;
   gap: 10px;
   justify-content: center;
- 
-
 }
-.trade img{
+.trade img {
   width: 22px;
   height: 27px;
 }
@@ -711,95 +692,86 @@
   font-family: "Inter";
   font-weight: 700;
   font-style: bold;
-  color:#000000;
+  color: #000000;
 }
-.trade_word{
+.trade_word {
   font-size: 18px;
   font-family: "Inter";
   font-weight: 400;
-  color:#1D1D1F;
-  display: flex ;
+  color: #1d1d1f;
+  display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
-
 }
 
-.estimation_button{
+.estimation_button {
   height: 36px;
   width: 150px;
   border-radius: 40px;
-  background-color: #0071E3;
-  color: #FFFFFF;
+  background-color: #0071e3;
+  color: #ffffff;
   border: none;
 }
-@media (min-width: 768px){
-  .container{
+@media (min-width: 768px) {
+  .container {
     display: none;
-   }
-   .big_container{
+  }
+  .big_container {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto;
-   }
-   
+  }
 }
 .tenth_page {
   width: 100%;
   height: 580px;
-  background-image: url("./zurag10.jpg");
+  background-image: url("./images/zurag10.jpg");
   background-position: center;
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: self-start;
   padding-top: 36px;
-  
 }
-.tenth_page_hero{
+.tenth_page_hero {
   width: 390px;
   height: 133px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  justify-content: center;
- 
-
 }
-.tenth_page_hero img{
+.tenth_page_hero img {
   width: 180px;
   height: 42px;
 }
-.tenth_page_hero p{
+.tenth_page_hero p {
   font-size: 18px;
   font-family: "Inter";
   font-weight: 400;
   color: #000000;
-
 }
 .eleventh_page {
   width: 100%;
   height: 580px;
-  background-image: url("./zurag11.jpg");
+  background-image: url("./images/zurag11.jpg");
   background-position: center;
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: end;
   padding-bottom: 50px;
-  
 }
-.eleventh_page_hero{
+.eleventh_page_hero {
   width: 380px;
   height: 147px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-
 }
-.eleventh_page_hero_words p{
+.eleventh_page_hero_words p {
   font-size: 18px;
   font-family: "Inter";
   font-weight: 400;
@@ -807,13 +779,12 @@
   font-style: bold;
   display: flex;
   text-align: center;
-  justify-content: center
-  ;
+  justify-content: center;
 }
-.twelfth_page{
+.twelfth_page {
   width: 100%;
   height: 580px;
-  background-image: url("./zurag12.jpg");
+  background-image: url("./images/zurag12.jpg");
   background-position: center;
   background-size: cover;
   padding-top: 12px;
@@ -821,9 +792,8 @@
   justify-content: center;
   align-items: flex-start;
   padding-top: 58px;
-
 }
-.twelfth_page_hero{
+.twelfth_page_hero {
   width: 235px;
   height: 135px;
   display: flex;
@@ -832,10 +802,10 @@
   align-items: center;
 }
 
-.thirteeth_page{
+.thirteeth_page {
   width: 100%;
   height: 580px;
-  background-image: url("./zurag13.jpg");
+  background-image: url("./images/zurag13.jpg");
   background-position: center;
   background-size: cover;
   padding-top: 12px;
@@ -843,9 +813,8 @@
   justify-content: center;
   align-items: flex-start;
   padding-top: 46px;
-
 }
-.thirteeth_page_hero{
+.thirteeth_page_hero {
   width: 257px;
   height: 115px;
   display: flex;
@@ -853,19 +822,19 @@
   justify-content: space-between;
   align-items: center;
 }
-.fortheen_page{
+.fortheen_page {
   width: 100%;
   height: 580px;
-  background-image: url("./zurag14.jpg");
+  background-image: url("./images/zurag14.jpg");
   background-position: center;
   background-size: cover;
   padding-top: 12px;
   display: flex;
   justify-content: center;
-  align-items:flex-start;
+  align-items: flex-start;
   padding-top: 51px;
 }
-.fortheen_page_hero{
+.fortheen_page_hero {
   width: 285px;
   height: 130px;
   display: flex;
@@ -873,19 +842,19 @@
   justify-content: space-between;
   align-items: center;
 }
-.fiftheen_page{
+.fiftheen_page {
   width: 100%;
   height: 580px;
-  background-image: url("./zurag15.jpg");
+  background-image: url("./images/zurag15.jpg");
   background-position: center;
   background-size: cover;
   padding-top: 12px;
   display: flex;
   justify-content: center;
-  align-items:flex-start;
+  align-items: flex-start;
   padding-top: 51px;
 }
-.fiftheen_page_hero{
+.fiftheen_page_hero {
   width: 285px;
   height: 130px;
   display: flex;
@@ -894,7 +863,7 @@
   align-items: center;
 }
 
-.cash_button{
+.cash_button {
   height: 36px;
   width: 246px;
   display: flex;
@@ -902,41 +871,38 @@
   align-items: center;
   gap: 16px;
 }
-.cash_button1{
+.cash_button1 {
   height: 36px;
   width: 114px;
   border-radius: 40px;
-  background-color: #0071E3;
-  color:#FFFFFF;
+  background-color: #0071e3;
+  color: #ffffff;
   border: none;
   font-size: 16px;
   font-family: "Inter";
   font-weight: 400;
 }
-.cash_button2{
+.cash_button2 {
   height: 36px;
   width: 114px;
   border-radius: 40px;
   background-color: transparent;
-  color:#0071E3;
-  border: 1px solid #0071E3;
+  color: #0071e3;
+  border: 1px solid #0071e3;
   font-size: 16px;
   font-family: "Inter";
   font-weight: 400;
 }
 
-@media (min-width: 1024px){
-  .big_container{
+@media (min-width: 1024px) {
+  .big_container {
     display: none;
   }
-  .container{
+  .container {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto auto auto auto;
     column-gap: 12px;
     row-gap: 12px;
-   }
-
+  }
 }
-
-
