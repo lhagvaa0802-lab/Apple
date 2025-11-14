@@ -116,7 +116,7 @@
 }
 
 /* mediaaaaaa */
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   .navbar_hero {
     width: 100%;
     height: 48px;
@@ -366,7 +366,7 @@
   font-weight: 400;
   color: #000000;
 }
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   .third_page {
     width: 100%;
     height: 650px;
@@ -713,7 +713,7 @@
   color: #ffffff;
   border: none;
 }
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   .container {
     display: none;
   }
@@ -904,5 +904,379 @@
     grid-template-rows: auto auto auto auto auto auto;
     column-gap: 12px;
     row-gap: 12px;
+  }
+}
+.tablet_scroll {
+  display: none;
+}
+.infinite_scroll {
+  display: none;
+}
+.web_scroll {
+  display: none;
+}
+.tablet_infinite_scroll {
+  display: none;
+}
+.buleg {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.scroll {
+  display: flex;
+  flex-direction: column;
+  height: 533px;
+  justify-content: space-between;
+  align-items: center;
+}
+.scroll_images {
+  width: 100%;
+  height: 495px;
+  display: flex;
+  gap: 12px;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.indicator {
+  display: flex;
+  gap: 20px;
+}
+a {
+  width: 15px;
+  height: 15px;
+  background-color: gray;
+  border-radius: 100%;
+}
+.dot1 {
+  background-color: #000000cc;
+}
+.dot2 {
+  background-color: #000000cc;
+}
+@media (min-width: 500px) {
+  .scroll {
+    display: none;
+  }
+  .web_scroll {
+    display: none;
+  }
+  .scroll_images {
+    height: 368px;
+  }
+  .tablet_scroll {
+    display: flex;
+    flex-direction: column;
+    height: 406px;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media (min-width: 1024px) {
+  .scroll {
+    display: none;
+  }
+  .tablet_scroll {
+    display: none;
+  }
+  .scroll_images {
+    height: 668px;
+  }
+  .web_scroll {
+    display: flex;
+    flex-direction: column;
+    height: 706px;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.phone_infinite_scroll {
+  width: 100%;
+  display: flex;
+  overflow-x: auto;
+  gap: 15px;
+}
+.phone_infinite_scroll::-webkit-scrollbar {
+  display: none;
+}
+.phone_infinite_scroll_group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+  animation: spin 8s infinite linear;
+}
+.phone_card1 {
+  width: 238px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.phone_card1_word {
+  background-color: #6529cf;
+  height: 134px;
+  width: 238px;
+  position: relative;
+}
+.phone_infinite1 {
+  position: absolute;
+  top: 10px;
+  left: 62px;
+}
+.phone_infinite {
+  position: absolute;
+  top: 114px;
+  left: 187px;
+  height: 10px;
+  width: 41px;
+}
+.phone_card1 p {
+  font-size: 12px;
+  font-family: "Inter";
+  font-style: bold;
+  font-weight: 700;
+  color: #1d1d1f;
+}
+.phone_card2 {
+  width: 238px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.phone_card2 p {
+  font-size: 12px;
+  font-family: "Inter";
+  font-style: bold;
+  font-weight: 700;
+  color: #1d1d1f;
+}
+
+@keyframes spin {
+  from {
+    translate: 0;
+  }
+  to {
+    translate: -100%;
+  }
+}
+@media (min-width: 500px) {
+  .phone_infinite_scroll {
+    display: none;
+  }
+  .tablet_infinite_scroll {
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+  }
+  .tablet_infinite_scroll::-webkit-scrollbar {
+    display: none;
+  }
+  .tablet_infinite_scroll_group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+    animation: spin 8s infinite linear;
+  }
+  .tablet_card1 {
+    width: 286px;
+    height: 194px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .tablet_card1_word {
+    background-color: #6529cf;
+    height: 161px;
+    width: 286px;
+    position: relative;
+  }
+  .tablet_infinite {
+    position: absolute;
+    top: 135px;
+    left: 225px;
+    height: 10px;
+    width: 41px;
+  }
+  .tablet_infinite1 {
+    position: absolute;
+    top: 20px;
+    left: 72px;
+  }
+  .tablet_card1 p {
+    font-size: 14px;
+    font-family: "Inter";
+    font-style: bold;
+    font-weight: 700;
+    color: #1d1d1f;
+  }
+  .tablet_card2 {
+    width: 286px;
+    height: 194px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .tablet_card2 p {
+    font-size: 14px;
+    font-family: "Inter";
+    font-style: bold;
+    font-weight: 700;
+    color: #1d1d1f;
+  }
+  .tablet_card2_word img {
+    height: 161px;
+    width: 286px;
+  }
+
+  @keyframes spin {
+    from {
+      translate: 0;
+    }
+    to {
+      translate: -100%;
+    }
+  }
+}
+@media (min-width: 1024px) {
+  .tablet_infinite_scroll {
+    display: none;
+  }
+  .infinite_scroll {
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+  }
+  .infinite_scroll::-webkit-scrollbar {
+    display: none;
+  }
+  .infinite_scroll_group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+    animation: spin 10s infinite linear;
+  }
+  .card1 {
+    height: 236px;
+    width: 417px;
+    background-image: url(./images/infiniti_scrol1.jpg);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: flex-end;
+    padding-bottom: 30px;
+  }
+  .card1_word {
+    width: 300px;
+    height: 22px;
+  }
+  .card1_word p {
+    font-size: 14px;
+    font-family: "Inter";
+    font-style: bold;
+    font-weight: 600;
+    color: #ffffff;
+  }
+  .card1 img {
+    width: 78px;
+    height: 14px;
+  }
+  .card2 {
+    height: 236px;
+    width: 417px;
+    background-image: url(./images/infiniti_scrol2.jpg);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: flex-end;
+    padding-bottom: 30px;
+  }
+  .card2_word {
+    width: 180px;
+    height: 18px;
+  }
+  .card2_word p {
+    font-size: 14px;
+    font-family: "Inter";
+    font-style: bold;
+    font-weight: 600;
+    color: #ffffff;
+  }
+
+  .card3 {
+    height: 236px;
+    width: 417px;
+    background-image: url(./images/infiniti_scrol3.jpg);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: flex-end;
+    padding-bottom: 30px;
+  }
+  .card4 {
+    height: 236px;
+    width: 417px;
+    background-color: #1b2632;
+    display: flex;
+    position: relative;
+    align-items: center;
+  }
+  .singer_image {
+    height: 196px;
+    width: 196px;
+    padding-left: 15px;
+  }
+  .music_logo {
+    height: 14px;
+    width: 59px;
+    position: absolute;
+    top: 199px;
+    left: 343px;
+  }
+  .card4 p {
+    font-size: 14px;
+    font-family: "Inter";
+    font-style: bold;
+    font-weight: 600;
+    color: #ffffff;
+    position: absolute;
+    top: 109px;
+    left: 226px;
+  }
+  .card5 {
+    height: 236px;
+    width: 417px;
+    background-color: #ebb799;
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding-left: 15px;
+  }
+
+  @keyframes spin {
+    from {
+      translate: 0;
+    }
+    to {
+      translate: -100%;
+    }
   }
 }
