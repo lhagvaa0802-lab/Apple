@@ -928,20 +928,23 @@
 .scroll {
   display: flex;
   flex-direction: column;
-  height: 533px;
+  /* height: 533px; */
   justify-content: space-between;
   align-items: center;
 }
 .scroll_images {
   width: 100%;
-  height: 495px;
+  height: 100%;
   display: flex;
   gap: 12px;
-  overflow-x: scroll;
+  overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
 }
-
+.web-image {
+  scroll-snap-align: center;
+  height: fit-content;
+}
 .indicator {
   display: flex;
   gap: 20px;
@@ -984,12 +987,12 @@ a {
     display: none;
   }
   .scroll_images {
-    height: 668px;
+    height: 100%;
   }
   .web_scroll {
     display: flex;
     flex-direction: column;
-    height: 706px;
+    height: 100%;
     justify-content: space-between;
     align-items: center;
   }
